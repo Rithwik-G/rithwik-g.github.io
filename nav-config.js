@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { href: 'projects.html', text: 'Projects' },
     { href: 'research.html', text: 'Research' },
     { href: 'competitive.html', text: 'Competitive Programming' },
-    { href: 'problems.html', text: 'Problems' },
+    { href: 'problems.html', text: 'Cool Problems' },
     { href: 'ideas.html', text: 'Thoughts' }
   ];
 
