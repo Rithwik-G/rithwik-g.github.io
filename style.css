@@ -78,7 +78,7 @@ nav a.active::after {
 .hero-title {
   font-size: 3.5rem;
   font-weight: 600;
-  /* background: linear-gradient(135deg, #00d4ff 0%, #00ffff 100%); */
+  background: linear-gradient(135deg, #00d4ff 0%, #00ffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -342,7 +342,6 @@ h1 {
   width: 200%;
   height: 200%;
   background: radial-gradient(circle, rgba(0, 212, 255, 0.05) 0%, transparent 70%);
-  animation: rotate 10s linear infinite;
 }
 
 @keyframes rotate {

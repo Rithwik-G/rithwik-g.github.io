@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { href: "https://blog.rithwikg.com/", text: "Blog" },
     { href: 'projects.html', text: 'Projects' },
     { href: 'research.html', text: 'Research' },
-    { href: 'competitive.html', text: 'Competitive' },
+    { href: 'competitive.html', text: 'Competitive Programming' },
     { href: 'problems.html', text: 'Problems' },
     { href: 'ideas.html', text: 'Thoughts' }
   ];
