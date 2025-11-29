@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const navLinks = [
     { href: 'index.html', text: 'Home' },
     { href: "https://blog.rithwikg.com/", text: "Blog" },
+    { href: 'problems.html', text: 'Cool Problems' },
+    { href: 'ideas.html', text: 'Song Lyrics' },
     { href: 'projects.html', text: 'Projects' },
     { href: 'research.html', text: 'Research' },
     { href: 'competitive.html', text: 'Competitive Programming' },
-    { href: 'problems.html', text: 'Cool Problems' },
-    { href: 'ideas.html', text: 'Thoughts' }
   ];
 
   const nav = document.getElementById('main-nav');
