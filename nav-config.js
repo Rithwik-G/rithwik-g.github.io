@@ -8,16 +8,26 @@ document.addEventListener('DOMContentLoaded', function() {
   
   const navLinks = [
     { href: 'index.html', text: 'Home' },
-    { href: "https://blog.rithwikg.com/", text: "Blog" },
     { href: 'problems.html', text: 'Cool Problems' },
     { href: 'ideas.html', text: 'Song Lyrics' },
-    { href: 'projects.html', text: 'Projects' },
     { href: 'research.html', text: 'Research' },
+    { href: 'projects.html', text: 'Projects' },
+    { href: 'side-quests.html', text: 'Side Quests' },
     { href: 'competitive.html', text: 'Competitive Programming' },
+    { href: "https://blog.rithwikg.com/", text: "Blog" },
   ];
 
   const nav = document.getElementById('main-nav');
-  
+  const sidebar = document.querySelector('.sidebar');
+
+  if (sidebar && !sidebar.querySelector('.site-name')) {
+    const siteName = document.createElement('a');
+    siteName.href = 'index.html';
+    siteName.className = 'site-name';
+    siteName.textContent = 'Rithwik Gupta';
+    sidebar.insertBefore(siteName, nav);
+  }
+
   if (nav) {
     navLinks.forEach(link => {
       const a = document.createElement('a');
