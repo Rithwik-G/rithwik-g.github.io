@@ -254,6 +254,58 @@ h1 {
   font-weight: 400;
 }
 
+/* Tools */
+.tools-intro {
+  max-width: 54ch;
+  margin: -0.75rem 0 2.25rem;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.8;
+}
+
+.tools-list {
+  border-top: 1px solid var(--border-subtle);
+}
+
+.tool-link {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.tool-link strong,
+.tool-link span {
+  display: block;
+}
+
+.tool-link strong {
+  margin-bottom: 0.25rem;
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 400;
+  transition: color 0.15s ease;
+}
+
+.tool-link span {
+  font-size: 0.8rem;
+}
+
+.tool-domain {
+  color: var(--text-dim);
+  white-space: nowrap;
+  transition: color 0.15s ease;
+}
+
+.tool-link:hover strong,
+.tool-link:hover .tool-domain {
+  color: var(--accent);
+}
+
 /* Images */
 .normal-img {
   width: 100%;
@@ -421,5 +473,10 @@ h1 {
 
   h1, .hero-title {
     font-size: 1.35rem;
+  }
+
+  .tool-link {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
   }
 }

@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { href: 'ideas.html', text: 'Song Lyrics' },
     { href: 'research.html', text: 'Research' },
     { href: 'projects.html', text: 'Projects' },
+    { href: 'tools.html', text: 'Tools' },
     { href: 'side-quests.html', text: 'Side Quests' },
     { href: 'competitive.html', text: 'Competitive Programming' },
     { href: "https://blog.rithwikg.com/", text: "Blog" },
