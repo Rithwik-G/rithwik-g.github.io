@@ -227,32 +227,6 @@ h1 {
   color: var(--accent);
 }
 
-/* Resume */
-.resume-actions {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin: -0.75rem 0 1.75rem;
-}
-
-.resume-actions a {
-  color: var(--accent-dim);
-  font-size: 0.85rem;
-  text-decoration: none;
-}
-
-.resume-actions a:hover {
-  color: var(--accent);
-}
-
-.resume-viewer {
-  display: block;
-  width: 100%;
-  height: min(78vh, 980px);
-  border: 1px solid var(--border);
-  background: #fff;
-}
-
 /* Project Links */
 .project-link {
   display: block;
@@ -506,7 +480,4 @@ h1 {
     gap: 0.4rem;
   }
 
-  .resume-viewer {
-    height: 72vh;
-  }
 }
